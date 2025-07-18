@@ -1,2 +1,2 @@
 # portfolio_website
-This was given too us as an assignment
+This was given to us as an assignment.
