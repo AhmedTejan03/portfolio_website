@@ -225,6 +225,37 @@ nav ul li a {
 }
 
 /* ===== Form Styles ===== */
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
 form {
   display: flex;
   flex-direction: column;

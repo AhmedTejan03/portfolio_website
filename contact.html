@@ -28,17 +28,23 @@
       <p>If you’d like to reach out to any of us, please use the form or contact us individually below.</p>
 
       <!-- Contact Form -->
-      <form action="#" method="POST">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required placeholder="Your Name">
+      <form class="contact-form glass" action="https://formspree.io/f/mwpqprgr" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required placeholder="you@example.com">
-
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" rows="5" required placeholder="Type your message..."></textarea>
-
-        <button type="submit">Send Message</button>
+        <button type="submit" class="cta-button">Send Message</button>
       </form>
 
       <!-- Member Contact Details -->
